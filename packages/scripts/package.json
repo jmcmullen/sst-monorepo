@@ -1,0 +1,15 @@
+{
+  "name": "@sessions/scripts",
+  "version": "0.0.0",
+  "dependencies": {
+    "@sessions/core": "workspace:*",
+    "sst": "catalog:"
+  },
+  "scripts": {
+    "shell": "sst shell tsx"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.7",
+    "tsx": "^4.7.2"
+  }
+}
